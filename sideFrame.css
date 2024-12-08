@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+    font-family: Arial;
+    color: white;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+.title{
+    display: grid;
+    inset-block: 0 65vh;
+    font-size: 25px;
+    background-color:forestgreen;
+    background-size: 100%;
+    padding: 15px;
+    position: fixed;
+}
+a.poi{
+    text-align: center;
+    align-items: center;
+    place-items: center;
+    padding-bottom: 10px ;
+    text-decoration: none;
+    color: white;
+}
+section{
+	display: grid;
+	place-items: left;
+	align-content: left;
+	min-height: 5vh;
+}
+.menu{
+    text-decoration: none;
+}
+
+.selection{
+    font-size: 20px;
+    margin-top: 180px;
+    text-shadow: 5px 5px 10px black;
+}
+a.iop{
+    display: grid;
+    text-decoration: none;
+    align-content: left;
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-left: 5cm;
+    padding: 5vh;
+    background-color: black;
+    border: 5px solid;
+    border-style: none none none solid ;
+    margin-left: 0%;
+    font-weight: bold;
+}
+a.iop:hover{
+    transition: padding 0.3s ease-in;
+    border: 5px solid forestgreen;
+    color: forestgreen;
+}
+a.poi:hover{
+    transition: 0.3s ease-in;
+    color: burlywood;
+}
+a.iop:active{
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+#B:hover {
+    background-image: url(assets/leo.png);
+    background-position: center;
+    background-size: cover;
+}
+#C:hover {
+    background-image: url(assets/gori.png);
+    background-position: center;
+    background-size: cover;
+}
+#D:hover {
+    background-image: url(assets/yangtze.png);
+    background-position: center;
+    background-size: cover;
+}
+#E:hover{
+    background-image: url(assets/orangutan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#F:hover{
+    background-image: url(assets/rhino.png);
+    background-position: center;
+    background-size: cover;
+}
+#G:hover{
+    background-image: url(assets/bigboy.png);
+    background-position: center;
+    background-size: cover;
+}
+#H:hover{
+    background-image: url(assets/tigero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#I:hover{
+    background-image: url(assets/jelepant.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#J:hover{
+    background-image: url(assets/kdsuma.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#K:hover{
+    background-image: url(assets/minitutel.jpg);
+    background-position: center;
+    background-size: cover;
+}
+

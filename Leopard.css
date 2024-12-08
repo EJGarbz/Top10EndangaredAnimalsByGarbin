@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Rye&family=Sofadi+One&display=swap');
+
+body{
+	background-color: #0D0D0D;
+	font-family: "Gloria Hallelujah", Arial, Helvetica, sans-serif;
+	color: white;
+	overflow-y: none;
+}
+H1{
+	position: absolute;
+	font-size: 10vh;
+	font-family: "Rye", Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.fin{
+	color: dodgerblue;
+}
+.Lrank{
+	font-family: "Rye",Arial, Helvetica, sans-serif;
+	font-size: 500px;
+	color: forestgreen;
+}
+.Arank{
+	font-family: "Rye",Arial, Helvetica, sans-serif;
+	font-size: 500px;
+	color: #74b3ce;
+}
+
+section{
+	display: grid;
+	place-items: center;
+	align-content: center;
+	min-height: 100vh;
+}
+.leo{
+    width: 80%;
+    height: auto;
+}
+.tree{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+}
+.aqua{
+	width: 100%;
+    height: auto;
+    position: absolute;
+	bottom: 5%;
+}
+
+p{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+	font-size: 20px;
+	padding: 60px;
+}
+.bg{
+    min-width: 100%;
+    height: auto;
+}
+.hidden{
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-100%);
+	transition: all 1s;
+}
+.show{
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+}
+.container{
+	width: 800px;
+	height: 300px;
+}
+.container:hover > .card{
+	cursor: pointer;
+	transform: rotateY(180deg);
+}
+
+.card{
+	height: 100%;
+	min-width: auto;
+	position: relative;
+	transition: transform 1500ms;
+	transform-style: preserve-3d;
+}
+/*------------------------*/
+.leopardo, .back{
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.leopardo{
+	background-image: url(assets/leopard_7.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+/*------------------------*/
+
+
+/*------------------------*/
+.gorillo, .back{
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.gorillo{
+	background-image: url(assets/gorillaman.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+/*------------------------*/
+
+/*------------------------*/
+.yangtzo, .back{
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.yangtzo{
+	background-image: url(assets/yang.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+/*------------------------*/
+
+/*------------------------*/
+.tapanulo, .back{
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.tapanulo{
+	background-image: url(assets/orangutan.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+/*------------------------*/
+
+/*------------------------*/
+.javano, .back{
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.javano{
+	background-image: url(assets/Rhinos.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+/*------------------------*/
+
+/*------------------------*/
+.sundo, .back{
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.sundo{
+	background-image: url(assets/sunda2.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+/*------------------------*/
+
+/*------------------------*/
+.brhinos, .back{
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.brhinos{
+	background-image: url(assets/Brhino.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+/*------------------------*/
+
+/*------------------------*/
+.elepo, .back{
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.elepo{
+	background-image: url(assets/elep2.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+/*------------------------*/
+
+/*------------------------*/
+.sumatro, .back{
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.sumatro{
+	background-image: url(assets/sumatran.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+/*------------------------*/
+
+/*------------------------*/
+.tutelo, .back{
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.tutelo{
+	background-image: url(assets/tutel2.png);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+/*------------------------*/
+
+
+.intro{
+	line-height: 1.5;
+	display: inline-block;
+	vertical-align: middle;
+}
+.back{
+	background-color: darkolivegreen;
+	transform: rotateY(180deg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+}
